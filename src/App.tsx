@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 const App: React.FC = () => {
 
   return (
-    <div className="conatiner md:p-5 p-2">
+    <div className="container mx-auto lg:p-5 md:p-4">
       <Navbar/>
       <Home/>
     </div>
